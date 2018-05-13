@@ -232,7 +232,7 @@ class FILESYS:
                 node.part_size.pop(index)
                 node.parts -= 1
                 self.use[last_blocks[i]] = 0
-                self.unused_blocs -= 1
+                self.unused_blocks -= 1
 
 
 sys = FILESYS()
