@@ -44,3 +44,5 @@ sys.delete('root/van')
 
 本例中使用json序列化文件树tree和文件元数据nodes
 并将其分别存储在第一块和第二块中
+文件内容被存储在后面的块中
+tree和nodes都由字典嵌套构成，可以方便地修改
