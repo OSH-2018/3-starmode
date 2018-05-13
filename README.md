@@ -41,3 +41,6 @@ sys.write('root/van', 'I am a performance artist.')
 删除文件
 
 sys.delete('root/van')
+
+本例中使用json序列化文件树tree和文件元数据nodes
+并将其分别存储在第一块和第二块中
